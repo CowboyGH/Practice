@@ -3,7 +3,7 @@
 отправит пустую строку. Выведите в консоль самый короткий и самый длинный элементы
 списка.
 
-namespace ConsoleApp1;
+namespace MyWorkSpace;
 
 public static class Program
 {

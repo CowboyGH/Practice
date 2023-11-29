@@ -4,7 +4,7 @@
 и возвращает целочисленный массив. С помощью специальной формы цикла for
 выведете элементы получившегося массива в одну строку, с пробелами.
 
-namespace ConsoleApp1;
+namespace MyWorkSpace;
 
 public static class Program
 {

@@ -2,7 +2,7 @@
 Задание 5. В строке, которую вводит пользователь, определите количество слов,
 добавьте в начало строки слово Start и в конец строки слово End
 
-namespace ConsoleApp1;
+namespace MyWorkSpace;
 
 public static class Program
 {

@@ -1,0 +1,83 @@
+
+Задание 4. Напишите программу, вычисляющую среднюю температуру за год. Создайте
+двумерный рандомный массив temperature 12 на 30, в котором будет храниться
+температура для каждого дня месяца (предполагается, что в каждом месяце 30 дней).
+Сгенерируйте значения температур случайным образом(в рамках разумного). Для
+каждого месяца выведите среднюю температуру. Для этого напишите метод, который
+пройдется по массиву temperature и для каждого месяца вычислит среднюю
+температуру , в качестве результата метод должен вернуть массив средних температур.
+Полученный массив средних температур отсортируйте по возрастанию;
+
+namespace MyWorkSpace;
+
+public class Program
+{
+    const int Months = 12;
+    const int Days = 30;
+    
+    
+    static int Temperature(int[,] yearTemp)
+    {
+        int[] averageArray = new int[Months];
+        
+        for (int i = 0; i < Months; i++)
+        {
+            int sum = 0;
+            int average = 0;
+            
+            for (int j = 0; j < Days; j++)
+            {
+                yearTemp[i, j] += sum;
+            }
+
+            average = sum / Days;
+            averageArray[i] = average;
+
+            for (int j = 0; j < Months; j++)
+            {
+                Console.Write($"{average, -5}");
+            }
+        }
+        
+        /*for (int i = 0; i < Months - 1; i++)
+        {
+            if (averageArray[i] > averageArray[i + 1])
+            {
+                int temp = 0;
+                temp = averageArray[i];
+                averageArray[i] = averageArray[i + 1];
+                averageArray[i + 1] = temp;
+            }
+        }*/
+        Array.Sort(averageArray);
+
+        return averageArray;
+    }
+    
+    
+    static void Main(String[] args)
+    {
+        int[,] yearTemp = new int[Months, Days];
+        Random rand = new Random();
+
+        for (int i = 0; i < Months; i++)
+        {
+            for (int j = 0; j < Days; j++)
+            {
+                yearTemp[i, j] = rand.Next(15, 40);
+            }
+        }
+        
+        for (int i = 0; i < Months; i++)
+        {
+            Console.WriteLine();
+            
+            for (int j = 0; j < Days; j++)
+            {
+                Console.Write($"{yearTemp[i, j], -5}");
+            }
+        }
+
+        Temperature(yearTemp[,]);
+    }
+}

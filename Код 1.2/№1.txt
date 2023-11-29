@@ -1,0 +1,21 @@
+
+Задание 1. Создайте коллекцию(массив) размерностью 100. Добавьте в коллекцию числа
+в убывающем порядке, каждое число меньше предыдущего на 3;
+
+namespace MyWorkSpace;
+
+public class Program
+{
+    static void Main(String[] args)
+    {
+        const int N = 100;
+        int num = 3;
+        int[] nums = new int[N];
+
+        for (int i = 0; i < N; i++)
+        {
+            nums[i] = N - i * num;
+        }
+    }
+}
+

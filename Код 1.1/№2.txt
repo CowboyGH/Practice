@@ -3,7 +3,7 @@
 Выведите в консоль сумму и произведение всех элементов списка. Выведите средннее,
 среди всех элементов списка.
 
-namespace ConsoleApp1;
+namespace MyWorkSpace;
 
 public static class Program
 {
