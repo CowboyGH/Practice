@@ -1,0 +1,24 @@
+using System.IO;
+
+namespace MyWorkSpace;
+
+
+public class Program
+{
+    static void Main()
+    {
+        using (FileStream stream = new FileStream(@"C:\Users\denko\Desktop\Practice\Код 1.3\input.txt", FileMode.Open, FileAccess.Read))
+        {
+            byte[] array = new byte[stream.Length];
+            stream.Read(array, 0, array.Length);
+            
+            string textFromFile = System.Text.Encoding.Default.GetString(array);
+            string[] numbers = textFromFile.Split(new char[] { '\n' });
+
+            foreach (var str in numbers)
+            {
+                Console.WriteLine(str);
+            }
+        }
+    }
+}
