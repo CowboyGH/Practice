@@ -1,24 +1,23 @@
-Задание 5. В строке, которую вводит пользователь, определите количество слов,
-добавьте в начало строки слово Start и в конец строки слово End
-
 namespace MyWorkSpace;
 
-public static class Program
+
+public class Program
 {
-    public static void Main(string[] args)
+    static void Main()
     {
         Console.WriteLine("Введите строку слов:");
-        string? s = Console.ReadLine();
+        string? str = Console.ReadLine();
         int spaceCount = 0;
         
-        for (int i = 0; i < s.Length; i++)
+        for (int i = 0; i < str.Length; i++)
         {
-            if (s[i] == ' ' && s[i] != '\0')
+            if (str[i] == ' ' && str[i] != '\0')
             {
                 spaceCount++;
             }
         }
         
+        str = "Start " + str + " End";
         Console.WriteLine($"В строке содержится {++spaceCount} слов(а).");
     }
 }

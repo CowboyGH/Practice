@@ -1,0 +1,42 @@
+namespace MyWorkSpace;
+
+
+public class Program
+{
+    static void Main()
+    {
+        int n = 0;
+        Console.Write("Введите количество чисел -> ");
+        n = Convert.ToInt32(Console.ReadLine());
+
+        int[] height = new int[n];
+        Console.WriteLine($"Введите {n} чисел(а):");
+        
+        for (int i = 0; i < n; i++)
+        {
+            height[i] = Convert.ToInt32(Console.ReadLine());
+        }
+        
+        int left = 0;                               // левая граница
+        int right = height.Length - 1;              // правая граница
+        int max = 0;                                // максимальная площадь
+
+        while (left < right)
+        {
+            int min = height[left] < height[right] ? height[left] : height[right];  // вычисляем минимальную высоту  
+
+            max = max > min * (right - left) ? max : min * (right - left);          // находим максимальную площадь (min * S)
+
+            if (height[left] > height[right])
+            {
+                right--;
+            }
+            else
+            {
+                left++;
+            }
+        }
+        
+        Console.WriteLine(max);
+    }
+}
