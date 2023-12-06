@@ -1,3 +1,44 @@
+Hi, this is the first practical work, wish me good luck
+ o  
+ o  
+ o    
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o 
+ o  
+ o  
+ o    
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o 
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o  
+ o 
+ 
 ▒▒▒▒▒█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
 ▒▒▒▒▒█░▒▒▒▒▒▒▒▓▒▒▓▒▒▒▒▒▒▒░█
 ▒▒▒▒▒█░▒▒▓▒▒▒▒▒▒▒▒▒▄▄▒▓▒▒░█░▄▄
