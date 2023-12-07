@@ -5,13 +5,13 @@ namespace ConsolePlanner;
 class Program
 {
     static List<Task> tasks = new List<Task>();
-    static string jsonPath = "statham.json";
+    static string jsonName = "statham.json";
     
     static void Main()
     {
-        if (File.Exists(jsonPath))
+        if (File.Exists(jsonName))
         {
-            string json = File.ReadAllText(jsonPath);
+            string json = File.ReadAllText(jsonName);
             tasks = JsonConvert.DeserializeObject<List<Task>>(json);
         }
         
@@ -115,7 +115,7 @@ class Program
         Console.Write("Enter the name of the task to edit: "); 
         string taskName = Console.ReadLine();
         
-        Task taskToEdit = tasks.Find(t => t.nameOfTask.Equals(taskName, StringComparison.OrdinalIgnoreCase));
+        Task taskToEdit = tasks.Find(t => t.nameOfTask.Equals(taskName, StringComparison.OrdinalIgnoreCase));       // !!!
         
         if (taskToEdit != null) 
         {
@@ -147,7 +147,7 @@ class Program
         Console.Write("Enter the name of the task to be deleted: "); 
         string taskName = Console.ReadLine();
         
-        Task taskToRemove = tasks.Find(t => t.nameOfTask.Equals(taskName, StringComparison.OrdinalIgnoreCase));
+        Task taskToRemove = tasks.Find(t => t.nameOfTask.Equals(taskName, StringComparison.OrdinalIgnoreCase));     // !!!
         
         if (taskToRemove != null) 
         { 
@@ -294,7 +294,7 @@ class Program
 
     static void SaveAllTasks()
     {
-        string json = JsonConvert.SerializeObject(tasks, Formatting.Indented);
-        File.WriteAllText(jsonPath, json);
+        string json = JsonConvert.SerializeObject(tasks);
+        File.WriteAllText(jsonName, json);
     }
 }
