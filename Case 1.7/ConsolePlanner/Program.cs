@@ -30,66 +30,65 @@ class Program
             Console.WriteLine("Press 9 to View Tasks for a Week");
             Console.WriteLine("Press 0 to Close App");
             
-            break;
-        }
+            int selectedNum = Convert.ToInt32(Console.ReadLine());
 
-        int selectedNum = Convert.ToInt32(Console.ReadLine());
-
-        switch (selectedNum)
-        {
-            case 1:
+            switch (selectedNum)
             {
-                AddTask();
-                break;
+                case 1:
+                {
+                    AddTask();
+                    break;
+                }
+                case 2:
+                {
+                    EditTask();
+                    break;
+                }
+                case 3:
+                {
+                    DeleteTask();
+                    break;
+                }
+                case 4:
+                {
+                    ShowAllTasks();
+                    break;
+                } 
+                case 5:
+                {
+                    ShowUpcomingTasks();
+                    break;
+                } 
+                case 6:
+                { 
+                    ShowCompletedTasks();
+                    break;   
+                } 
+                case 7:
+                {
+                    ShowTasksForToday();
+                    break;
+                } 
+                case 8:
+                {
+                    ShowTasksForTomorrow();
+                    break;
+                }
+                case 9:
+                {
+                    ShowTasksForAWeek();
+                    break;
+                }
+                case 0:
+                {
+                    SaveAllTasks();
+                    return;
+                }
+                default:
+                    Console.WriteLine("Incorrect action.");
+                    break;
             }
-            case 2:
-            {
-                EditTask();
-                break;
-            }
-            case 3:
-            {
-                DeleteTask();
-                break;
-            }
-            case 4:
-            {
-                ShowAllTasks();
-                break;
-            } 
-            case 5:
-            {
-                ShowUpcomingTasks();
-                break;
-            } 
-            case 6:
-            { 
-                ShowCompletedTasks();
-                break;   
-            } 
-            case 7:
-            {
-                ShowTasksForToday();
-                break;
-            } 
-            case 8:
-            {
-                ShowTasksForTomorrow();
-                break;
-            }
-            case 9:
-            {
-                ShowTasksForAWeek();
-                break;
-            }
-            case 0:
-            {
-                SaveAllTasks();
-                return;
-            }
-            default:
-                Console.WriteLine("Incorrect action.");
-                break;
+            Console.WriteLine();
         }
     }
     
@@ -223,7 +222,7 @@ class Program
     
     static void ShowTasksForToday()
     {
-        Console.WriteLine($"Tasks for {DateTime.Today}:"); 
+        Console.WriteLine("Tasks for today:"); 
         bool foundTasks = false;
         
         foreach (Task task in tasks) 
@@ -247,7 +246,7 @@ class Program
     
     static void ShowTasksForTomorrow()
     {
-        Console.WriteLine($"Tasks for {DateTime.Today.AddDays(1)}:"); 
+        Console.WriteLine("Tasks for tomorrow:"); 
         bool foundTasks = false;
         
         foreach (Task task in tasks) 
@@ -271,7 +270,7 @@ class Program
     
     static void ShowTasksForAWeek()
     {
-        Console.WriteLine($"Tasks for {DateTime.Today.AddDays(7)}:"); 
+        Console.WriteLine("Tasks for a week:"); 
         bool foundTasks = false;
         
         foreach (Task task in tasks) 
