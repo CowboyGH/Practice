@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gr622_kodal\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\ConsolePlanner.csproj": {}
+    "C:\\Users\\gr622_kodal\\RiderProjects\\ConsoleWeather\\ConsoleWeather\\ConsoleWeather.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gr622_kodal\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\ConsolePlanner.csproj": {
+    "C:\\Users\\gr622_kodal\\RiderProjects\\ConsoleWeather\\ConsoleWeather\\ConsoleWeather.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\ConsolePlanner.csproj",
-        "projectName": "ConsolePlanner",
-        "projectPath": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\ConsolePlanner.csproj",
+        "projectUniqueName": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsoleWeather\\ConsoleWeather\\ConsoleWeather.csproj",
+        "projectName": "ConsoleWeather",
+        "projectPath": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsoleWeather\\ConsoleWeather\\ConsoleWeather.csproj",
         "packagesPath": "C:\\Users\\gr622_kodal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\obj\\",
+        "outputPath": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsoleWeather\\ConsoleWeather\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -23,15 +23,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,20 +42,12 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "JSON": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
-            },
-            "System.Text.Json": {
-              "target": "Package",
-              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -69,12 +61,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

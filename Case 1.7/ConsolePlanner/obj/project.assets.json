@@ -241,23 +241,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\denko\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\gr622_kodal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\denko\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\ConsolePlanner.csproj",
+      "projectUniqueName": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\ConsolePlanner.csproj",
       "projectName": "ConsolePlanner",
-      "projectPath": "C:\\Users\\denko\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\ConsolePlanner.csproj",
-      "packagesPath": "C:\\Users\\denko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\denko\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\obj\\",
+      "projectPath": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\ConsolePlanner.csproj",
+      "packagesPath": "C:\\Users\\gr622_kodal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\denko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gr622_kodal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -266,7 +268,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -323,7 +324,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'JSON 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "message": "Пакет \"JSON 1.0.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "JSON",
       "targetGraphs": [
         "net8.0"

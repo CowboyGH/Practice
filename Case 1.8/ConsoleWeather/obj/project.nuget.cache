@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "IURlh+cWQDpp6XVb/nHElPp5ZUxb7xAkZE/yTExtPIpya69XWWdn164zeKNrsIgebmTog0QKmLxgTG6Cruc5pw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsoleWeather\\ConsoleWeather\\ConsoleWeather.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gr622_kodal\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\gr622_kodal\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\gr622_kodal\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\gr622_kodal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\gr622_kodal\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
