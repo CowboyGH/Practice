@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "KiZritBzZ5fCNY6SSkAQpyrNfP/b6eT9mjq7NZhD9DqTx8IT6BzQJS53Nid8RgrBecj4uJMYp4/wqUOqSWp9IQ==",
+  "dgSpecHash": "GApUzWGjRyybkV2pSOf/zvNbRklXZ7ByxZ0P+TyuPV9zWlQBZ/95i+5k3b7EyhFGMEE3YZ+4hRPArw+Txgwgxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gr622_kodal\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\ConsolePlanner.csproj",
+  "projectFilePath": "C:\\Users\\denko\\RiderProjects\\ConsolePlanner\\ConsolePlanner\\ConsolePlanner.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gr622_kodal\\.nuget\\packages\\json\\1.0.1\\json.1.0.1.nupkg.sha512",
-    "C:\\Users\\gr622_kodal\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\gr622_kodal\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\gr622_kodal\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+    "C:\\Users\\denko\\.nuget\\packages\\json\\1.0.1\\json.1.0.1.nupkg.sha512",
+    "C:\\Users\\denko\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\denko\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\denko\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"JSON 1.0.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Package 'JSON 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "JSON",
       "targetGraphs": [
         "net8.0"

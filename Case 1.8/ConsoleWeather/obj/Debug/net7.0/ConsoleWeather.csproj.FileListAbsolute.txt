@@ -1,0 +1,17 @@
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\bin\Debug\net7.0\ConsoleWeather.exe
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\bin\Debug\net7.0\ConsoleWeather.deps.json
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\bin\Debug\net7.0\ConsoleWeather.runtimeconfig.json
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\bin\Debug\net7.0\ConsoleWeather.dll
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\bin\Debug\net7.0\ConsoleWeather.pdb
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\ConsoleWeather.csproj.AssemblyReference.cache
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\ConsoleWeather.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\ConsoleWeather.AssemblyInfoInputs.cache
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\ConsoleWeather.AssemblyInfo.cs
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\ConsoleWeather.csproj.CoreCompileInputs.cache
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\ConsoleWeather.csproj.CopyComplete
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\ConsoleWeather.dll
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\refint\ConsoleWeather.dll
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\ConsoleWeather.pdb
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\ConsoleWeather.genruntimeconfig.cache
+C:\Users\denko\RiderProjects\ConsoleWeather\ConsoleWeather\obj\Debug\net7.0\ref\ConsoleWeather.dll

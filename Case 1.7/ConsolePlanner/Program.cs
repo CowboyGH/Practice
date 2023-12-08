@@ -115,7 +115,7 @@ class Program
         Console.Write("Enter the name of the task to edit: "); 
         string taskName = Console.ReadLine();
         
-        Task taskToEdit = tasks.Find(t => t.nameOfTask.Equals(taskName, StringComparison.OrdinalIgnoreCase));       // !!!
+        Task taskToEdit = tasks.Find(t => t.nameOfTask.Equals(taskName));
         
         if (taskToEdit != null) 
         {
@@ -147,7 +147,7 @@ class Program
         Console.Write("Enter the name of the task to be deleted: "); 
         string taskName = Console.ReadLine();
         
-        Task taskToRemove = tasks.Find(t => t.nameOfTask.Equals(taskName, StringComparison.OrdinalIgnoreCase));     // !!!
+        Task taskToRemove = tasks.Find(t => t.nameOfTask.Equals(taskName));
         
         if (taskToRemove != null) 
         { 
